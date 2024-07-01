@@ -11,6 +11,7 @@ import { LoaderProvider } from "./contexts/LoaderContext";
  *
  * @returns {JSX.Element} The rendered component.
  */
+
 function App(): JSX.Element {
   return (
     <Router>
