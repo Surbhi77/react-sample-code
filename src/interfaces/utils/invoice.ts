@@ -29,6 +29,7 @@ interface IAddress {
  * Interface for the Invoice document.
  * Includes the properties of the document, along with a method to calculate the total.
  */
+console.log("object")
 export interface IInvoice {
   _id: string;
   id: string;
