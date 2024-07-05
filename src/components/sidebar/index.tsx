@@ -8,8 +8,10 @@ import Logout from "../../assets/images/power-off-icon.svg";
 import { useAuth } from "../../contexts/AuthContext";
 
 function SideBar() {
+
   const { userData, logout } = useAuth();
-  console.log("object")
+
+
   return (
     <Box className="sidebar-wrapper">
       <Box className="brandLogo">
