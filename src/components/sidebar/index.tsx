@@ -11,7 +11,6 @@ function SideBar() {
 
   const { userData, logout } = useAuth();
 
-console.log(userData)
   return (
     <Box className="sidebar-wrapper">
       <Box className="brandLogo">
