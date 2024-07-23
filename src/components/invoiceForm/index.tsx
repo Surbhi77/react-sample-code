@@ -108,8 +108,7 @@ function InvoiceForm({
     }
     return null;
   };
-console.log("testing")
-console.log("testing")
+
   const getTitle = (): string => {
     switch (mode) {
       case "create":
