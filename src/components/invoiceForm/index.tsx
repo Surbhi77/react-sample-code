@@ -74,6 +74,7 @@ function InvoiceForm({
       onClose();
     },
   });
+  console.log("object")
 
   const {
     values,
