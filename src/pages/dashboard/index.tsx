@@ -17,7 +17,7 @@ import AddIcon from "@mui/icons-material/Add";
 import InvoiceList from "../../components/invoiceList";
 import InvoiceForm from "../../components/invoiceForm";
 import { useInvoices } from "../../contexts/InvoiceContext";
-
+console.log("object")
 /**
  * Dashboard component that displays a list of invoices and allows the user to create, view, and edit invoices.
  * @returns {JSX.Element} The rendered Dashboard component.
