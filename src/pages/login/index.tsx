@@ -16,7 +16,7 @@ import GOOGLE_CLIENT_ID from "../../constants/config";
 function Login() {
   const { login, isAuthenticated } = useAuth();
   const navigate = useNavigate();
-console.log("Object")
+
   // Redirect authenticated users to the home page
   useEffect(() => {
     if (isAuthenticated) {
