@@ -29,6 +29,7 @@ console.log("object")
 
 console.log("object")
 console.log("object")
+console.log("object")
   return (
     <Box className="LoginPage">
       <Box className="LeftBar">
